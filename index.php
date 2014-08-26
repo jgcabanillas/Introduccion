@@ -1,1 +1,1 @@
-<?php echo '<h1>Introduccion a PHP</h1>';?>
+<?php echo '<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, in optio laborum architecto omnis itaque beatae similique nihil reprehenderit mollitia sint facere eaque, quis? Sequi odio facilis, odit earum unde.</h1>';?>
