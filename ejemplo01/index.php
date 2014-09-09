@@ -21,8 +21,8 @@
 	     echo'<h2>sin registros</h2>';
 	elseif (mysqli_num_rows($rst)==1){
 	     $alumno=mysqli_fetch_assoc($rst);
-		 echo 'Matricula; '.$alumno['MATRICULA'].', Alumno: '.$alumno['NOMBRE'].', Email: '
-		 .$alumno['EMAIL'].', Telefono: '.$alumno['TELEFONO'];
+		 echo 'Matricula; '.$alumno['matricula'].', Alumno: '.$alumno['nombre'].', Email: '
+		 .$alumno['email'].', Telefono: '.$alumno['telefono'];
 	}else {
 	?>
 	<!-- table>(thead>tr>th{Matricula}+th{Nombre}+th{Email}+th{Telefono}) -->
@@ -39,10 +39,10 @@
 			<?php
 			while ($alumnos = mysqli_fetch_assoc($rst)) {
 				echo '<tr>';
-				echo '<td>'.$alumnos['MATRICULA'].'</td>';
-				echo '<td>'.$alumnos['NOMBRE'].'</td>';
-				echo '<td>'.$alumnos['EMAIL'].'</td>';
-				echo '<td>'.$alumnos['TELEFONO'].'</td>';
+				echo '<td>'.$alumnos['matricula'].'</td>';
+				echo '<td>'.$alumnos['nombre'].'</td>';
+				echo '<td>'.$alumnos['email'].'</td>';
+				echo '<td>'.$alumnos['telefono'].'</td>';
 				echo '</tr>';
 			}
 			?>

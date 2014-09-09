@@ -4,8 +4,8 @@ class miconexion {
 	protected $puerto = '3306';
 	protected $base = 'udo';
 	protected $usuario = 'root';
-	protected $passwd = 'toor';
-	protected $conexion = '';
+	protected $passwd = '';
+	public $conexion = '';
 
 	public function __construct()
 	{
