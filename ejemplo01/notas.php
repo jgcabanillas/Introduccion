@@ -1,3 +1,4 @@
+	<?php echo $titulo?>
 	<?php include_once('plantillas/encabezado.php');?>
 	<?php include_once('plantillas/menu.php');?>
 
